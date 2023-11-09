@@ -8,7 +8,6 @@ const itemsList = ref([])
 
 function addTask(input) {
   if (input != "" && itemsList.value.indexOf(input) == -1) {
-    console.log("addTaks function")
     itemsList.value.push(input)
   }
 }
